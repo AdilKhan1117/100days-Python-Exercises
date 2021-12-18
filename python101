@@ -1,24 +1,33 @@
 
 ##########################
 
-Variable example:
+- Variable
+- String 
 
-String example:
-
-if example:
-
-else example:
-
-elif example:
+- if
+- else
+- elif
 
 logical operators:
 And
 Or
 Not
 
+- lower()
+- upper()
 
+Maths:
+()
+/
+%
++
+-
 
+- Round
 
+- float
+- str
+- int
 
 
 
