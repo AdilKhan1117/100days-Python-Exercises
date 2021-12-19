@@ -40,9 +40,9 @@ print("hello" + "  " +  'hi ')  = hello hi
 
 **print with input**
 
-print("hello " + input("how are you ? ")) = how are you ? ..... / hello ....
+print("hello " + input("how are you ? "))
 
 
-**next space below**
+**to add new line below use this. \n **
 
 print("how are you today \n")
