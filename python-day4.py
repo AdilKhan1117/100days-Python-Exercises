@@ -37,3 +37,8 @@ print(random_int)
 
 random_float = random.random()
 print(random_float)
+
+# With this next one, can use f string to insert in print
+
+random_int1 = random.randint(1, 500)
+print(f"your nmuber is {random_int1}")
