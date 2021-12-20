@@ -1,5 +1,7 @@
-Day 3 Orojects:
-
+Day 3 Project:
+  
+Welcome to the coding club: Final Project
+  
 print("Welcome to the coding club")
 
 #If you have a comma for example, intentionally i had put a comman stating 'hello's', just so i could show, you cannot have all double quotes as golang and python are inputs -
