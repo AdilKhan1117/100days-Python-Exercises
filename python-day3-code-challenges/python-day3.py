@@ -80,6 +80,8 @@ elif bmi > 35:
 
 print(f"Your BMI is {bmi}, you are clinically obese")
 
+
+
 Challenge 3:
 
 # 🚨 Don't change the code below 👇
