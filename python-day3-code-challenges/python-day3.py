@@ -225,8 +225,12 @@ name1 = input("What is your name? \n")
 name2 = input("What is their name? \n")# 🚨 
 
 Don't change the code above 👆
+
 #Write your code below this line 👇
-name = name1 + name2 = name.lower()
+
+string_together = name1 + name2
+object_lower = string_together.lower()
+
 t = object_lower.count("t")
 
 r = object_lower.count("r")
