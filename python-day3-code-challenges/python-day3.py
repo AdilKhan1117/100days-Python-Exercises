@@ -226,7 +226,7 @@ name2 = input("What is their name? \n")# 🚨
 
 Don't change the code above 👆
 #Write your code below this line 👇
-name = name1 + name2object_lower = name.lower()
+name = name1 + name2 = name.lower()
 t = object_lower.count("t")
 
 r = object_lower.count("r")
