@@ -72,3 +72,8 @@ print(state1[0])
 
 state = ["London", "Luton", "US", "Canada"]
 print(state[-1])
+
+#If you want to add additonal to the end of the list, simply using the append will do this for you
+
+state.append("California")
+print(state)
