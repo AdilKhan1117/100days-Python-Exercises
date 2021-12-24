@@ -67,3 +67,8 @@ state1[1] = "luton1"
 
 #if you want print, do this below
 print(state1[0])
+
+# if you want to go backward in binart can simply type in the minus key (-)
+
+state = ["London", "Luton", "US", "Canada"]
+print(state[-1])
