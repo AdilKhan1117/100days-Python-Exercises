@@ -55,3 +55,15 @@ if coin == 0:
   print("heads")
 if coin == 1:
   print("tails")
+
+  
+List:
+#Remeber list always starts from 0 binary
+
+state1 = ["london", "luton"]
+
+#if you want to modify binary 0 for example luton and change this to luton1, can do so by doing the below
+state1[1] = "luton1" 
+
+#if you want print, do this below
+print(state1[0])
