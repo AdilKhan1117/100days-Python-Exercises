@@ -77,3 +77,7 @@ print(state[-1])
 
 state.append("California")
 print(state)
+
+
+# Can also use the extend argument to add multiple of lines
+state.extend(["California", "Seattle"])
