@@ -42,3 +42,16 @@ print(random_float)
 
 random_int1 = random.randint(1, 500)
 print(f"your nmuber is {random_int1}")
+
+
+Challenge 1:
+# Create a random module to decide if heads or tails. 
+  
+import random 
+
+coin = random.randint(0,1)
+
+if coin == 0:
+  print("heads")
+if coin == 1:
+  print("tails")
