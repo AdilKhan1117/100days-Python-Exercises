@@ -124,3 +124,25 @@ fruit_length = len(fruits)
 #without the -1, the error list index out of range would be seen, cause by default the list above would be classified as starting from 1 to 3 and not in binary 0 to 2. 
 #simply stating -1, would make it stating pears as full as stawberries is 0, apple 1 and pears is now 2.
 print(fruits[fruit_length -1])
+
+
+
+challenge 3:
+  
+# 🚨 Don't change the code below 👇
+row1 = ["⬜️","⬜️","⬜️"]
+row2 = ["⬜️","⬜️","⬜️"]
+row3 = ["⬜️","⬜️","⬜️"]
+
+map = [row1, row2, row3]
+print(f"{row1}\n{row2}\n{row3}")
+position = input("Where do you want to put the treasure? ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this row 👇
+
+horizontal = int(position[0]) 
+vertical = int(position[1])
+
+selected_row = map[vertical - 1]
+selected_row[horizontal - 1] = "X"
