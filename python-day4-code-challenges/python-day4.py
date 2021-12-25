@@ -106,3 +106,21 @@ print(person_who_will_pay + " is going to buy the meal today!")
 
 person_who_will_pay = random.choice(names)
 orint(person_who_will_pay)
+
+
+#Adding list together
+
+fruits = ["stawberries", "apple", "pears"]
+vegetables = ["spinish", "tomatoes", "patatoes"]
+
+dirty_dozen = [fruits, vegetables]
+print(dirty_dozen)
+
+# How to prevent list index out of range error
+
+fruits = ["stawberries", "apple", "pears"]
+fruit_length = len(fruits)
+
+#without the -1, the error list index out of range would be seen, cause by default the list above would be classified as starting from 1 to 3 and not in binary 0 to 2. 
+#simply stating -1, would make it stating pears as full as stawberries is 0, apple 1 and pears is now 2.
+print(fruits[fruit_length -1])
