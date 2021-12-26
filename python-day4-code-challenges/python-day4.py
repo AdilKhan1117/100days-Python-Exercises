@@ -140,10 +140,10 @@ position = input("Where do you want to put the treasure? ")
 
 #Write your code below this row 👇
 
-horizontal = int(position[0]) 
-vertical = int(position[1])
+horizontal = int(position[0]) #First number inputted
+vertical = int(position[1]) #second number inputted
 
-selected_row = map[vertical - 1]
+selected_row = map[vertical - 1] #so from the map which lists the rows, so now using the vertical var, we simply 
 selected_row[horizontal - 1] = "X"
 
 print(f"{row1}\n{row2}\n{row3}")
