@@ -32,3 +32,19 @@ total_heights = sum(student_heights)
 number_of_students = len(student_heights)
 average_height = round(total_heights / number_of_students) 
 print(average_height)
+
+or this method using 'for loops' 
+
+total_height = 0
+for height in student_heights:
+  total_height += height
+print(total_height) 
+
+number_of_students = 0 
+for student in student_heights:
+  number_of_students += 1
+print(number_of_students)
+
+average_height = round(int(total_height / number_of_students)) 
+print(average_height )
+#print(number_of_students)
