@@ -69,3 +69,32 @@ print(max_student_score)
 
 the min and max field allows you to understand what is the highest value and lowest. however we are going to be using for loop again for this:
   
+Challenger 3:
+  
+  
+# 🚨 Don't change the code below 👇
+student_scores = input("Input a list of student scores ").split()
+for n in range(0, len(student_scores)):
+  student_scores[n] = int(student_scores[n])
+print(student_scores)
+# 🚨 Don't change the code above 👆
+
+#Write your code below this row 👇
+
+
+max_value = None 
+for num in student_scores:
+  if (max_value is None or num > max_value):
+    max_value = num
+print("Maximum score:", max_value)
+
+or:
+
+
+#So starting with a 0 score, the 'for loop', runs a loop to indicate the highest score by calculating going through -
+#the numbers and checking if the previous score is higher then the recent one until it finds the highest
+high_score = 0
+for score in student_scores:
+  if score > high_score:
+    high_score = score
+print("Maximum score:", high_score)
