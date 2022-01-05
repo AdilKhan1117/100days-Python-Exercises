@@ -98,3 +98,28 @@ for score in student_scores:
   if score > high_score:
     high_score = score
 print("Maximum score:", high_score)
+
+
+Loops and Ranges:
+  
+#This will print out the numbers from 1 to 9
+for number in range (1,10):
+  print(number)
+
+ #This will skip 3 numbers 
+for number in range (1,10, 3):
+  print(number)
+
+ #This will add all the numbers up
+total = 0
+for number in range (1,101):
+  total += number
+print(total)
+
+
+
+
+
+
+
+
