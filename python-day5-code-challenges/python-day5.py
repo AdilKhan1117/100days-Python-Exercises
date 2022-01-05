@@ -92,7 +92,9 @@ or:
 
 
 #So starting with a 0 score, the 'for loop', runs a loop to indicate the highest score by calculating going through -
-#the numbers and checking if the previous score is higher then the recent one until it finds the highest
+#the numbers and checking if the previous score is higher then the recent one until it finds the highest, the high_score only updates if the score looped is greater than
+#score
+
 high_score = 0
 for score in student_scores:
   if score > high_score:
