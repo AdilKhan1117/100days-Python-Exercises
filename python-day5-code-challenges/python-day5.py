@@ -119,6 +119,19 @@ for number in range (1,101):
 print(total)
 
 
+Challenge 3:
+  
+Calculating sum of all even numbers using range:
+  
+#to get the even numbers, in the range field start with 2 even number, as we know from the previous days using modulo % 2 == 0 allows us to understand this gives us even numbers
+#once we do this by using the if condition we can than use the total += numbers, this simply add 0 + the sum which is calculated to total, it is saying add all the numbers in the range
+#if numbers are even. 
+
+total = 0 
+for numbers in range(2, 101):
+  if (numbers % 2 == 0):
+    total += numbers
+print(f"{total}")
 
 
 
