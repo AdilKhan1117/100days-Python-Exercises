@@ -183,20 +183,34 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 #Can also use append which was used earlier to add the random choice to password see line 189
 
-password = ""
-
-for char in range(0, nr_letters):
-  password.append(random.choice(letters))
-print(password)
-
-for char in range(0, nr_symbols):
-  password += random.choice(symbols)
-print(password)
-
-for char in range(0, nr_numbers):
-  password += random.choice(numbers)
-print(password)
 #Hard Level - Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 
+password_list = []
 
+for char in range(0, nr_letters):
+  password_list += random.choice(letters)
+
+for char in range(0, nr_symbols):
+  password_list += random.choice(symbols)
+
+for char in range(0, nr_numbers):
+  password_list += random.choice(numbers)
+
+random.shuffle(password_list)
+
+password = ""
+
+for char in password_list:
+  password += char
+
+print(f"Your password is {password}")
+
+
+# 1. In order to randomlise the ordering of the password you need to set the list line 189, this allows you to be able to have the shuffle line 200 and also allows you to contain 
+# - all of the values generated from letters, symbols and numbers. 
+# 2. using the random choice allows you to randomlise the choice within the variables for example 'letters' will be chosen at random and not in order by using the .random
+# 3. to add the random into the password_list, you need to join password_list with random by using the += operator this allows you to simply say password_list equals random.choice(xx)
+# 4. random.shuffle is then used to randomlise the ordering of the list so instead of going by order of presedence like letters,symbols and numbers it will randomly going in any order
+# 5. now to bring back configuring the password output as a string format instead of a wierd list format you need to create a new var like password = ""
+# 6. Finally you need get the outprint into password from the password_list above by using the for loop and adding char into the password variable 
