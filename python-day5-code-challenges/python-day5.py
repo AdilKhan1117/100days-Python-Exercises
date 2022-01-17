@@ -181,10 +181,12 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 #therange(0, nr_letters) can also be (1, nr_letters + 1) since the characters are starting 1 and 4 letters required it will be 3 so need to add 1 more)
 #using the random.choice, this allows you to randomly pick something from letters using choice 
 
+#Can also use append which was used earlier to add the random choice to password see line 189
+
 password = ""
 
 for char in range(0, nr_letters):
-  password += random.choice(letters)
+  password.append(random.choice(letters))
 print(password)
 
 for char in range(0, nr_symbols):
