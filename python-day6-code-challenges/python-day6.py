@@ -1,3 +1,7 @@
+Difference between a for loop and a while loop is:
+  A for loop will only run until block of code is complete as in if you have a list it will run code within that iteration
+  A while loop will continue to run until statement is true, it doesnt use arguments as iterations etc. 
+
 Challenge 1:
   
 Creating Python Functions:
@@ -65,7 +69,28 @@ can also do thi: so until it is not true, keep jumping, once it hits true then s
 while not at_goal():
     jump()
     
-    
+Challenge 3: Using If statements with While loop
+  
+
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+def jump():
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+
+while not at_goal():
+    if wall_in_front():
+        jump()
+    else:
+        move()
     
     
     
