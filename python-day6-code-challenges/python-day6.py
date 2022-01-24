@@ -60,7 +60,10 @@ while number_of_hurdles > 0:
         done()
     print(number_of_hurdles)
     
-    
+can also do thi: so until it is not true, keep jumping, once it hits true then stop. 
+  
+while not at_goal():
+    jump()
     
     
     
