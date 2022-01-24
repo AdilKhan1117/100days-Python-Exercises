@@ -19,3 +19,25 @@ def jump():
 
 for char in range(6):
     jump()
+
+    
+ While loop:
+ Is something or block of code which will keep going whilst its true.
+    
+ number_of_hurdles = 6
+while number_of_hurdles > 0:
+  jump()
+  number_of_hurdles -= 1
+  print(number_of_hurdles)
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
