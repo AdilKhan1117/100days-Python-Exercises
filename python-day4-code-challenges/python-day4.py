@@ -105,7 +105,7 @@ print(person_who_will_pay + " is going to buy the meal today!")
 # Using random.choice can also do a much better job then above as it would select for you the names specified directly under random
 
 person_who_will_pay = random.choice(names)
-orint(person_who_will_pay)
+print(person_who_will_pay)
 
 
 #Adding list together
